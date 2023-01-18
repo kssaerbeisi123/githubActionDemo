@@ -19,9 +19,9 @@ jobs:
         with:
           server_address: smtp.qq.com
           server_port: 465
-          username: ${{secrets.MAIL_USERNAME}}
-          password: ${{secrets.MAIL_PASSWORD}}
+          username: 1135376511@qq.com
+          password: hwenrvppitdiiigj
           subject: Github Actions job result
-          to: ${{secrets.MAIL_TOUSERNAME}}
-          from: ${{secrets.MAIL_USERNAME}}
+          to: 1135376511@qq.com
+          from: GitHub Actions
           body: "111"
